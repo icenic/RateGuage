@@ -1,0 +1,12 @@
+.idea
+.settings
+target
+.classpath
+.project
+bin
+*.iml
+*.ipr
+*.iws
+.metadata
+jcstress.*
+TODO.md
