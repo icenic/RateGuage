@@ -8,7 +8,8 @@
 	<packaging>jar</packaging>
 
 	<name>RateGauge</name>
-	<url>http://maven.apache.org</url>
+  	<description>RateGuage measures the rate of events over time, which is more precise than Meters of Dropwizard-Metrics.</description>
+  	<url>https://github.com/icenic/RateGuage</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,6 +23,7 @@
 			<groupId>io.dropwizard.metrics</groupId>
 			<artifactId>metrics-core</artifactId>
 			<version>4.0.0</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
